@@ -1,0 +1,9 @@
+#!/bin/bash
+trajectory_file_path="VLM_attack_propose/annotation/mini-data_new_250_val_random3_bug_fix_before20frames_VLM_no_type_inference_trajectory_traject_250_val_random3_second_time_decay_rate_0.9_buffer_dist7e-1_num_disk_5_scope_52_prediction_only_no_collide.json"
+dataset_DIR="OpenDWM/OpenDWM_preview_dataset/4_30_adversarial_trajectory_250_val_41_items"
+dataset_type="adversarial_trajectory"
+CUDA="2"
+OpenDWM/generate_collide_dataset.sh $trajectory_file_path  $dataset_DIR $dataset_type 
+OpenDWM/collide_video_generate.sh $dataset_DIR $OUTPUT_DIR $CUDA
+
+
