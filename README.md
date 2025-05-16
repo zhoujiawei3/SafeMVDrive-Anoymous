@@ -1,5 +1,5 @@
 # SafeMVDrive 
-This is the official implementation of “Improving the Safety of Vision-Language Models by Monitoring Fewer Than One Hundred Activations”.
+This is the official implementation of “SafeMVDrive: Multi-view Safety-Critical Driving Video Synthesis in the Real World Domain”.
 
 ## Safety-critical video examples generated with SafeMVDrive
 
